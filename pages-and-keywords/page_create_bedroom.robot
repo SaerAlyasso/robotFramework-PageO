@@ -13,7 +13,7 @@ ${bedromm_pg_button_save}                           xpath=//*[@id='j_idt50']/a[1
 ${bedroom_pg_label}                                 Create New Bedroom
 ***keywords***
 create bedroom
-    wait until page contains     Bedroom
+    wait until page contains     Bedroom    
     click element                ${sidemenu_bedroom}
     wait until page contains     ${client_pg_label_list}
     click element                ${bedroom_pg_create_new_bedroom}
