@@ -22,4 +22,4 @@ Test Case 1
     remove client
     create bedroom
     delete bedroom
-   # perform logout
+    perform logout
