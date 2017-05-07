@@ -18,8 +18,21 @@ Test teardown   Teardown
 Test Case 1
     
     Test login into the system
+    perform logout
+    
+Test Case 2
+    Test login into the system
     create new client
+    perform logout
+Test Case 3
+    Test login into the system
     remove client
+    perform logout
+Test Case 4
+    Test login into the system
     create bedroom
+    perform logout
+Test Case 5
+    Test login into the system
     delete bedroom
     perform logout
